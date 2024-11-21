@@ -26,14 +26,9 @@ The original tables are referenced using the function `{{ source('source_name', 
 ## 2. Staging Layer
 The Staging layer is responsible for intermediate transformations. Here, we perform actions such as:
 
-Data cleaning, such as string standardization and removal of duplicates.
-Creation of calculated columns to add value to the data.
-Organizing raw data into more structured tables to facilitate subsequent analyses.
-3. Mart Layer
-In the Mart layer, the data is consolidated and prepared for strategic analysis.
-
-Examples of data aggregation include consolidating revenue by period and category, allowing for detailed financial analysis. These tables serve as the basis for reports and dashboards that support strategic decision-making.
-
+- Data cleaning, such as string standardization and removal of duplicates.
+- Creation of calculated columns to add value to the data.
+- Organizing raw data into more structured tables to facilitate subsequent analyses.
 
 ## 3. Mart Layer
 In the Mart layer, the data is consolidated and prepared for strategic analysis.
