@@ -1,0 +1,50 @@
+models:
+  - name: employee
+    description: "Tabela de funcionários"
+    columns:
+      - name: id_employee
+        description: "ID do funcionário"
+      - name: organization_id
+        description: "ID da organização"
+      - name: employee_gender
+        description: "Gênero do funcionário"
+      - name: employee_mobile_app
+        description: "Uso do aplicativo móvel"
+
+  - name: order_credit_item
+    description: "Itens de crédito de pedidos"
+    columns:
+      - name: order_credit_item_id
+        description: "ID do item de crédito do pedido"
+      - name: order_credit_id
+        description: "ID do crédito do pedido"
+      - name: id_employee
+        description: "ID do funcionário"
+      - name: dt_schedule
+        description: "Data do agendamento"
+      - name: status
+        description: "Status do item"
+      - name: total_credited_value
+        description: "Valor total creditado"
+      - name: wallet_id
+        description: "ID da carteira"
+
+  - name: organization
+    description: "Organizações"
+    columns:
+      - name: organization_id
+        description: "ID da organização"
+      - name: organization_name
+        description: "Nome da organização"
+      - name: organization_industry
+        description: "Indústria da organização"
+
+  - name: wallet
+    description: "Carteiras de funcionários"
+    columns:
+      - name: wallet_id
+        description: "ID da carteira"
+      - name: name
+        description: "Nome da carteira"
+      - name: description
+        description: "Descrição da carteira"
