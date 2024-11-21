@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: raw  # Nome da fonte deve ser o nome do seu banco de dados
+    database: raw  # Nome do banco de dados onde estão as tabelas
+    schema: public  # Esquema onde as tabelas estão
+    tables:
+      - name: employee  # Nome da tabela que você vai referenciar
+      - name: order_credit_item
+      - name: organization
+      - name: wallet

@@ -1,0 +1,5 @@
+name: 'dbt_project'
+profile: 'swile'
+
+# Definindo onde estão os modelos (models)
+model-paths: ["models"]
